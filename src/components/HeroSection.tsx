@@ -36,22 +36,22 @@ const HeroSection = () => {
             alt={slide.text}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-foreground/60 via-foreground/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/40 to-black/20" />
         </div>
       ))}
 
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center container-custom">
-        <p className="text-gold font-body text-sm md:text-base uppercase tracking-[0.3em] mb-4">
+        <p className="text-gold font-body text-sm md:text-base uppercase tracking-[0.2em] mb-4 drop-shadow-lg">
           Saketh Home Constructions
         </p>
         <h1
           key={current}
-          className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in max-w-4xl"
+          className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 animate-fade-in max-w-4xl drop-shadow-2xl"
         >
           {slides[current].text}
         </h1>
-        <p className="text-primary-foreground/80 text-lg md:text-xl max-w-2xl mb-10 font-light">
+        <p className="text-white/90 text-lg md:text-xl max-w-2xl mb-10 font-light drop-shadow-md">
           Premium construction services in Tirupati — where quality meets commitment.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
