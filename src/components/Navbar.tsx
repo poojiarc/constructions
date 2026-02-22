@@ -5,7 +5,6 @@ const navLinks = [
   { label: "Home", href: "#home" },
   { label: "About", href: "#about" },
   { label: "Services", href: "#services" },
-  { label: "Floor Plans", href: "#floorplans" },
   { label: "EMI Calculator", href: "#emi" },
   { label: "Contact Us", href: "#contact" },
 ];
@@ -35,9 +34,30 @@ const Navbar = () => {
       }`}
     >
       <div className="container-custom flex items-center justify-between h-16 md:h-20">
-        <a href="#home" className="flex items-center">
-          <img src={logo} alt="Saketh Home Constructions" className="h-14 md:h-16 lg:h-[72px] w-auto" />
-        </a>
+        <a href="#home" className="flex items-center gap-3">
+  {/* Logo */}
+  <div className="w-12 md:w-14 lg:w-16 flex items-center">
+    <img
+      src={logo}
+      alt="Saketh Home Constructions"
+      className="w-full object-contain block"
+    />
+  </div>
+
+  {/* Company Name */}
+  <div className="flex flex-col leading-tight">
+    <span
+      className={`text-xl md:text-2xl font-bold ${
+        scrolled ? "text-foreground" : "text-primary-foreground"
+      }`}
+    >
+      SAKETH
+    </span>
+    <span className="text-xs md:text-sm font-medium text-gold">
+      Home Constructions
+    </span>
+  </div>
+</a>
 
         {/* Desktop nav */}
         <nav className="hidden lg:flex items-center gap-1">
