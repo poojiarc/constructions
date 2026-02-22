@@ -61,7 +61,7 @@
 //                 <Facebook size={18} />
 //               </a>
 //               <a
-//                 href="https://wa.me/919736939369"
+//                 href="https://wa.me/918305829999"
 //                 target="_blank"
 //                 rel="noopener noreferrer"
 //                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground hover:bg-gold hover:text-secondary-foreground transition-all duration-300 hover:scale-110"
@@ -122,8 +122,8 @@
 //                 <Phone size={16} className="text-gold mt-0.5 shrink-0" />
 //                 <div>
 //                   <p className="text-xs text-primary-foreground/50 mb-0.5">Phone</p>
-//                   <a href="tel:+919736939369" className="text-sm text-primary-foreground/80 hover:text-gold transition-colors">
-//                     +91 97369 39369
+//                   <a href="tel:+918305829999" className="text-sm text-primary-foreground/80 hover:text-gold transition-colors">
+//                     +918305829999
 //                   </a>
 //                 </div>
 //               </li>
@@ -249,7 +249,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://wa.me/919736939369"
+                href="https://wa.me/918305829999"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground hover:bg-gold hover:text-secondary-foreground transition-all duration-300 hover:scale-110"
@@ -319,10 +319,10 @@ const Footer = () => {
                     Phone
                   </p>
                   <a
-                    href="tel:+919736939369"
+                    href="tel:+918305829999"
                     className="text-sm text-primary-foreground/80 hover:text-gold transition-colors"
                   >
-                    +91 97369 39369
+                    +918305829999
                   </a>
                 </div>
               </li>

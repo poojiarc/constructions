@@ -75,7 +75,7 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="https://wa.me/919736939369"
+            href="https://wa.me/918305829999"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-3 flex items-center gap-2 px-5 py-2.5 rounded-lg gold-gradient text-secondary-foreground font-semibold text-sm btn-ripple hover:opacity-90 transition-opacity"
@@ -111,7 +111,7 @@ const Navbar = () => {
             </button>
           ))}
           <a
-            href="https://wa.me/919736939369"
+            href="https://wa.me/918305829999"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-4 flex items-center justify-center gap-2 px-5 py-3 rounded-lg gold-gradient text-secondary-foreground font-semibold btn-ripple"

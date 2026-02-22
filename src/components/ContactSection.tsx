@@ -10,7 +10,7 @@ const ContactSection = () => {
     const msg = encodeURIComponent(
       `Hi, I'm ${form.name}.\nEmail: ${form.email}\nPhone: ${form.phone}\n\n${form.message}`
     );
-    window.open(`https://wa.me/919736939369?text=${msg}`, "_blank");
+    window.open(`https://wa.me/918305829999?text=${msg}`, "_blank");
   };
 
   return (
@@ -29,7 +29,7 @@ const ContactSection = () => {
           <ScrollReveal direction="left">
             <div className="space-y-6">
               {[
-                { icon: Phone, label: "Phone", value: "9736939369", href: "tel:+919736939369" },
+                { icon: Phone, label: "Phone", value: "8305829999", href: "tel:+918305829999" },
                 { icon: Mail, label: "Email", value: "sakethhomeconstructions@gmail.com", href: "mailto:sakethhomeconstructions@gmail.com" },
                 { icon: MapPin, label: "Address", value: "Opposite Agriculture College, Srinivasa Enclave" },
                 { icon: Clock, label: "Business Hours", value: "9AM – 7PM" },
@@ -52,7 +52,7 @@ const ContactSection = () => {
               ))}
 
               <a
-                href="https://wa.me/919736939369"
+                href="https://wa.me/918305829999"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full py-4 rounded-xl bg-green-600 hover:bg-green-700 transition-colors text-primary-foreground font-semibold text-lg"

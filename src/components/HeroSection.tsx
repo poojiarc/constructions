@@ -62,7 +62,7 @@ const HeroSection = () => {
             Explore Projects
           </button>
           <a
-            href="https://wa.me/919736939369"
+            href="https://wa.me/918305829999"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3.5 rounded-lg border-2 border-primary-foreground/50 text-primary-foreground font-semibold text-base hover:bg-primary-foreground/10 transition-colors"

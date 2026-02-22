@@ -43,7 +43,7 @@ const FloorPlans = () => (
                 </div>
                 <p className="text-muted-foreground mb-5">{plan.desc}</p>
                 <a
-                  href="https://wa.me/919736939369"
+                  href="https://wa.me/918305829999"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full text-center py-3 rounded-lg gold-gradient text-secondary-foreground font-semibold btn-ripple hover:opacity-90 transition-opacity"
