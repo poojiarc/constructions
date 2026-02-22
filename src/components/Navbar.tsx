@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <div className="container-custom flex items-center justify-between h-16 md:h-20">
         <a href="#home" className="flex items-center">
-          <img src={logo} alt="Saketh Home Constructions" className="h-12 md:h-14 w-auto" />
+          <img src={logo} alt="Saketh Home Constructions" className="h-14 md:h-16 lg:h-[72px] w-auto" />
         </a>
 
         {/* Desktop nav */}
