@@ -1,4 +1,5 @@
 import { Home, Wrench, Info, Phone, Instagram, Facebook } from "lucide-react";
+import logo from "@/assets/logo-icon.jpg";
 
 const footerLinks = [
   { icon: Home, label: "Home", href: "#home" },
@@ -16,6 +17,10 @@ const Footer = () => {
     <footer className="navy-gradient">
       {/* Follow Us */}
       <div className="container-custom pt-12 pb-6">
+        {/* Logo */}
+        <div className="flex justify-center mb-6">
+          <img src={logo} alt="Saketh Home Constructions" className="h-20 w-auto brightness-0 invert" />
+        </div>
         <div className="text-center mb-8">
           <p className="text-gold font-semibold text-sm uppercase tracking-widest mb-4">Follow Us</p>
           <div className="flex justify-center gap-4">
