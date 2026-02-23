@@ -181,7 +181,7 @@ import {
   Home, Wrench, Info, Phone, Instagram, Facebook,
   Building, PaintBucket, PenTool, Sofa, ClipboardList, HardHat,
   Mail, MapPin, Clock, MessageCircle,
-  Calculator,
+  Heart,
   CalculatorIcon
 } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
@@ -373,9 +373,24 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="border-t border-primary-foreground/10 pt-6">
           <div className="text-center space-y-1">
-            <p className="text-primary-foreground/60 text-sm">
-              Made with ❤️ by <span className="text-gold font-semibold">StaffArc</span>
-            </p>
+            <div className="flex justify-center items-center gap-1 text-primary-foreground/60 text-sm">
+  Made with
+  <Heart className="h-4 w-4 text-red-500 mx-1 animate-pulse" />
+  by
+  <a
+    href="https://staffarc.in"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-1 text-gold hover:underline ml-1"
+  >
+    <img
+      src="https://www.staffarc.in/images/Staffarc-logo.png"
+      alt="StaffArc logo"
+      className="h-5 w-5 object-contain"
+    />
+    <span className="font-semibold">StaffArc</span>
+  </a>
+</div>
             <p className="text-primary-foreground/40 text-xs">
               © 2026 Saketh Constructions. All rights reserved.
             </p>
