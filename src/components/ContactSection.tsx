@@ -31,7 +31,11 @@ const ContactSection = () => {
               {[
                 { icon: Phone, label: "Phone", value: "8305829999", href: "tel:+918305829999" },
                 { icon: Mail, label: "Email", value: "sakethhomeconstructions@gmail.com", href: "mailto:sakethhomeconstructions@gmail.com" },
-                { icon: MapPin, label: "Address", value: "Opposite Agriculture College, Srinivasa Enclave" },
+                { 
+  icon: MapPin, 
+  label: "Address", 
+  value: "Opposite Agriculture College, Srinivasa Enclave - 517505, Andhra Pradesh, Tirupati" 
+},
                 { icon: Clock, label: "Business Hours", value: "9AM – 7PM" },
               ].map((item) => (
                 <div key={item.label} className="flex items-start gap-4 p-4 bg-muted rounded-xl">
@@ -65,7 +69,7 @@ const ContactSection = () => {
               <div className="w-full h-56 rounded-xl overflow-hidden bg-muted">
                 <iframe
                   title="Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.1!2d79.42!3d13.63!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDM4JzA0LjQiTiA3OcKwMjUnMjQuMyJF!5e0!3m2!1sen!2sin!4v1!5m2!1sen!2sin"
+                  src="https://www.google.com/maps?q=Opposite+Agriculture+College,+Srinivasa+Enclave,+517505,+Andhra+Pradesh,+Tirupati&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
